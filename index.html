@@ -1,1 +1,112 @@
-# test
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Wang Xuejing</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(
+        135deg,
+        #eef2f7,
+        #dbe7f5
+      );
+      color: #1f2937;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 700px;
+      padding: 60px 40px;
+      text-align: center;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 42px;
+    }
+
+    p {
+      margin-bottom: 28px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #5b6472;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      color: white;
+      text-decoration: none;
+      background: #163b78;
+      border-radius: 10px;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      background: #0f2b59;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 35px;
+      font-size: 14px;
+      color: #8a94a3;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 40px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <h1>你好，我是 Wang Xuejing</h1>
+
+    <p>
+      欢迎访问我的个人网站。
+      这个网页使用 GitHub Pages 发布，
+      域名由 IONOS 管理。
+    </p>
+
+    <a
+      class="button"
+      href="mailto:contact@wangxuejing.de"
+    >
+      联系我
+    </a>
+
+    <div class="footer">
+      © 2026 Wang Xuejing
+    </div>
+  </main>
+</body>
+</html>
